@@ -134,7 +134,7 @@ fun ShoppingListApp(){
                             onValueChange = {itemQuantity = it},
                             singleLine = false,
                             modifier = Modifier.fillMaxWidth().padding(8.dp),
-                            label = {Text("Enter Quantity")}
+                            label = {Text("Enter Quantity: ")}
                         )
                     }
                 }
